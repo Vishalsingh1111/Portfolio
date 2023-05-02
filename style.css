@@ -1011,6 +1011,7 @@ button {
     .home-text {
         text-align: center;
         width: 80%;
+        margin-top: 2vmin;
     }
 
     .home-img {
@@ -1063,6 +1064,21 @@ button {
     .portfolio-item h3 {
         font-size: 4vmin;
     }
+ .contact-section .container .row{
+        flex-direction:column;
+        text-align: center;
+    }
+    .contact-form, .contact-info{
+        margin: 8vmin auto;
+    }
+    .contact-form .input-group {
+        width: 150%;
+        margin-left: -10vmin;
 
+    }
+    .contact-info-item{
+        width: 200%;
+        margin-left: -23vmin; 
+    }
 
 }
